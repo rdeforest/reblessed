@@ -1,0 +1,8 @@
+#!/bin/bash
+
+coffee --compile       \
+       --bare          \
+       --no-header     \
+       --output src/es \
+       src/cs
+
